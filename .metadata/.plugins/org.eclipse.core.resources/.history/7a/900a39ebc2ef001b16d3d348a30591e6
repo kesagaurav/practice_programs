@@ -1,0 +1,21 @@
+
+public class Secure {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("https://www.google.com");
+		System.out.print(isSecure("http://www.w3schools.com"));
+
+	}
+
+	
+	public static boolean  isSecure(String url) {
+		if(url.startsWith("https")) {
+			System.out.println("\n secure");
+		}else {
+			System.out.println("\n not secure");
+		}
+	}
+	
+}
